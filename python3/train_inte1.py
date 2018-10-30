@@ -9,7 +9,7 @@ import sys
 args = sys.argv #引数受け取り
 
 if args[1] == "前側": #次回部位の特定
-    json_data['部位'] = "下半身"
+    json_data['部位']  = "下半身"
 elif args[1] == "下半身":
     json_data['部位'] = "後側"
 elif args[1] == "後側":
